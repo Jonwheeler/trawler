@@ -1,7 +1,14 @@
-require 'simplecov'
+require 'webmock/rspec'
+require "simplecov"
+require "vcr"
 
 SimpleCov.start do
   add_filter "/spec/"
+end
+
+VCR.configure do |c|
+  c.cassette_library_dir = 'fixtures/vcr_cassettes'
+  c.hook_into :webmock
 end
 
 $LOAD_PATH.unshift(File.expand_path("../..", __FILE__))

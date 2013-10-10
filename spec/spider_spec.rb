@@ -9,7 +9,9 @@ describe Trawler::Spider do
 
   describe "#call" do
     it "gets the webpage from the url" do
-      expect(spider.call).to be_a StringIO
+      VCR.use_cassette("crawl_test") do
+        expect(spider.call).to be_a StringIO
+      end
     end
   end
 
