@@ -2,6 +2,11 @@ require "spec_helper"
 
 describe Trawler do
   describe "#fetch" do
+
+    before do
+      Trawler::Spider.any_instance.stub(:call) { fixture("dogshaming.html") }
+    end
+    
     let(:haul) { Trawler.fetch("http://www.dogshaming.com/") }
 
     it "returns a ParsedDocument" do

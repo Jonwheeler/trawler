@@ -1,5 +1,7 @@
 require "trawler/document"
 require "trawler/parsed_document"
+require "trawler/spider"
+require "trawler/parser"
 require "trawler/version"
 
 module Trawler

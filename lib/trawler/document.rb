@@ -1,8 +1,12 @@
+require "nokogiri"
+
 module Trawler
   class Document
     def initialize(url, options = {}) 
-      @url     = url
-      @options = options
+      @url    = url
+      @parser = options[:parser]     || Parser
+      @spider = options[:spider]     || Spider
+      @image  = options[:image_size] || "100px"
     end
 
     def parse
@@ -10,7 +14,15 @@ module Trawler
     end
 
     def parsed_data
-      @data = {}
+      @parser.new(doc).call
+    end
+
+    def doc
+      @page ||= fetch_document
+    end
+
+    def fetch_document
+      @document ||= Nokogiri::HTML(@spider.new(@url).call)
     end
   end
 end
