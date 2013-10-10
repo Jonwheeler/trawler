@@ -2,12 +2,13 @@ module Trawler
   class ParsedDocument
     attr_reader :host
 
-    def initialize(url, data, options = {})
-      @host = url
+    def initialize(data, options = {})
+      @host = data.delete(:host)
       @data = data
     end
 
     def title
+      data[:title]
     end
   
     def videos
@@ -19,7 +20,7 @@ module Trawler
     end
 
     def description
-      []
+      data[:description]
     end
   end
 end

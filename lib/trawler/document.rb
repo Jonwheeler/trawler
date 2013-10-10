@@ -10,7 +10,7 @@ module Trawler
     end
 
     def parse
-      ParsedDocument.new(@url, parsed_data)
+      ParsedDocument.new(parsed_data, @image_size)
     end
 
     def parsed_data
@@ -22,7 +22,7 @@ module Trawler
     end
 
     def fetch_document
-      @document ||= Nokogiri::HTML(@spider.new(@url).call)
+      Nokogiri::HTML(@spider.new(@url).call)
     end
   end
 end
