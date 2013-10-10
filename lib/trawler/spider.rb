@@ -7,7 +7,15 @@ module Trawler
     end
 
     def call
-      open(@url) 
+      open(full_url)
+    end
+
+    def full_url
+      "#{protocol}#{@url}"
+    end
+
+    def protocol
+      /(http:\/\/|https:\/\/)/ =~ @url ? "" : "http://"
     end
   end
 end
