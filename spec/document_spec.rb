@@ -4,7 +4,7 @@ describe Trawler::Document do
   let(:doc) { Trawler::Document.new("http://www.dogshaming.com") }
 
   before do
-    Trawler::Spider.any_instance.stub(:call) { fixture("dogshaming.html") }
+    Trawler::Spider.any_instance.stub(:call) { fixture("sample_pages/wordpress.html") }
   end
 
   it "requires a URL" do

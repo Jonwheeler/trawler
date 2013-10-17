@@ -5,7 +5,7 @@ describe Trawler do
 
     before do
       Trawler::Spider.any_instance.stub(:call) { 
-        fixture("dogshaming.html") 
+        fixture("sample_pages/wordpress.html") 
       }
     end
     
