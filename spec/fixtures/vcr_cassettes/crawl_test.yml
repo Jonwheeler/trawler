@@ -21,18 +21,18 @@ http_interactions:
       Server:
       - Apache
       Set-Cookie:
-      - COOKIE=10.5.19.71.1381380198254367; path=/
+      - COOKIE=10.5.19.71.1381981993688865; path=/
       - referrer=; path=/
       - referrer=www.cats.com; path=/
-      - t=7bac1ff0316611e3b4410015c5e70815; path=/
+      - t=a5b423a036df11e3835e001372f8117a; path=/
       Etag:
-      - '"AAAAUGESPWg"'
+      - '"AAAAUHDE+U4"'
       Last-Modified:
-      - Fri, 04 Oct 2013 16:24:36 GMT
+      - Wed, 16 Oct 2013 21:02:43 GMT
       Vary:
       - Accept-Encoding,User-Agent
       Cartoon:
-      - aalander5
+      - aalander7
       Content-Type:
       - text/html; charset=UTF-8
       Content-Length:
@@ -40,11 +40,11 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Thu, 10 Oct 2013 04:57:31 GMT
+      - Thu, 17 Oct 2013 03:53:13 GMT
       X-Varnish:
-      - 2043735300 2043622843
+      - '2112551289'
       Age:
-      - '853'
+      - '0'
       Via:
       - 1.1 varnish
       Connection:
@@ -53,5 +53,5 @@ http_interactions:
       encoding: UTF-8
       string: "<html>\r\n<body>\r\n</body>\r\n</html>\r\n"
     http_version: 
-  recorded_at: Thu, 10 Oct 2013 04:57:30 GMT
+  recorded_at: Thu, 17 Oct 2013 03:53:13 GMT
 recorded_with: VCR 2.6.0
