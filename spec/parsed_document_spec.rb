@@ -12,7 +12,7 @@ describe Trawler::ParsedDocument do
     }
   end
 
-  let(:doc)  { Trawler::ParsedDocument.new(data) }
+  let(:doc)  { Trawler::ParsedDocument.new("www.cats.com", data) }
 
   it "sets the host" do
     expect(doc.host).to eq "www.cats.com"

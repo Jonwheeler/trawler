@@ -1,8 +1,9 @@
 module Trawler
   class ParsedDocument
-    attr_reader :data
+    attr_reader :host, :data
 
-    def initialize(data, options = {})
+    def initialize(host, data)
+      @host = host
       @data = data
     end
 

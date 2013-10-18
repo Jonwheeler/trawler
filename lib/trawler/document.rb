@@ -8,11 +8,11 @@ module Trawler
     end
 
     def parse
-      ParsedDocument.new(parsed_data)
+      ParsedDocument.new(doc.full_url, parsed_data)
     end
 
     def parsed_data
-      Parser.new(page: doc.page, url: doc.url, image_size: @image)
+      Parser.new(page: doc.page, url: doc.full_url, image_size: @image)
     end
 
     def doc

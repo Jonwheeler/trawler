@@ -4,7 +4,7 @@ describe Trawler do
   describe "#fetch" do
 
     before do
-      Trawler::Spider.any_instance.stub(:call) { fixture("dogshaming.html") }
+      Trawler::Spider.any_instance.stub(:get_page) { fixture("sample_pages/tumblr.html") }
     end
     
     let(:haul) { Trawler.fetch("http://www.dogshaming.com/") }
