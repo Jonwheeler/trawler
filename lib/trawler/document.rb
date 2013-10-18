@@ -14,15 +14,15 @@ module Trawler
     end
 
     def parsed_data
-      @parser.new(doc).call
+      @parser.new(@url, doc).call
     end
 
     def doc
-      @page ||= fetch_document
+      @page ||= @spider.new(@url).call
     end
 
     def fetch_document
-      Nokogiri::HTML(@spider.new(@url).call)
+      @spider.new(@url).call
     end
   end
 end

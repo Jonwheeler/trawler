@@ -7,31 +7,46 @@ describe Trawler::Spider do
     expect(spider.instance_variable_get("@url")).to eq "www.cats.com"
   end
 
-  describe "#call" do
-    it "gets the webpage from the url" do
-      VCR.use_cassette("crawl_test") do
-        expect(spider.call).to be_a StringIO
-      end
-    end
-  end
-
   describe "#full_url" do
-    it "joins the url and the protocol" do
-      expect(spider.full_url).to eq "http://www.cats.com"
-    end
-  end
-  
-  describe "#protocol" do
-    it "returns 'http://' if no protocol is found" do
-      spider = Trawler::Spider.new("www.cats.com")
-      expect(spider.protocol).to eq "http://"
+    context "without a full scheme" do
+      it "adds the protocol to the url" do
+        expect(spider.full_url).to eq "http://www.cats.com" 
+      end
     end
 
-    %w( http:// https://).each do |protocol|
-      it "returns '' if #{protocol} is present" do
-        spider = Trawler::Spider.new("#{protocol}www.cats.com")
-        expect(spider.protocol).to eq ""
+    context "with a full scheme" do
+      let(:spider) { Trawler::Spider.new("https://foo.com") }
+      it "returns the url" do
+        expect(spider.full_url).to eq "https://foo.com" 
       end
+    end
+  end
+
+  describe "#get_page" do
+    it "returns a string" do
+      VCR.use_cassette("trawl_page") do
+        expect(spider.get_page).to be_a StringIO
+      end
+    end
+  end
+
+  describe "#call" do
+    let(:crawled_spider) do
+      VCR.use_cassette("trawl_page") do
+        spider.call
+      end
+    end
+
+    it "returns the object" do
+      expect(crawled_spider).to be_a Trawler::Spider
+    end
+
+    it "has the full_url" do
+      expect(crawled_spider.full_url).to eq "http://www.cats.com"
+    end
+
+    it "has the page" do
+      expect(crawled_spider.page).not_to be_nil
     end
   end
 end

@@ -1,25 +1,39 @@
+require "nokogiri"
+
 module Trawler
   class Parser
-    def initialize(raw_data)
-      @raw_data = raw_data
+    def initialize(url, document)
+      @url      = url
+      @document = document
     end
 
     def call
       parse_document
-      build_structure
     end
 
     def parse_document
+      {
+        host:        @url,
+        title:       title,
+        description: description,
+        images:      images,
+        videos:      videos
+      }
     end
 
-    def build_structure
-      {
-        host:        "www.cats.com",
-        title:       "catty cat cat",
-        description: "cats and cats and cat and cats",
-        images:       [],
-        videos:       []
-      }
+    def title
+      document.css('title').inner_text rescue nil
+    end
+
+    def description
+    end
+
+    def images
+      []
+    end
+
+    def videos
+      []
     end
   end
 end

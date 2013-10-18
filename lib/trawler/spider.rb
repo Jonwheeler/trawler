@@ -2,20 +2,24 @@ require "open-uri"
 
 module Trawler
   class Spider
+    attr_reader :page, :full_url
+
     def initialize(url)
       @url = url
     end
 
     def call
-      open(full_url)
+      get_page   
+
+      self
     end
 
     def full_url
-      "#{protocol}#{@url}"
+      @full_url ||= URI.parse(@url).scheme.nil? ? 'http://' + @url : @url
     end
 
-    def protocol
-      /(http:\/\/|https:\/\/)/ =~ @url ? "" : "http://"
+    def get_page
+      @page ||= open(full_url)
     end
   end
 end

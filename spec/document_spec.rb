@@ -12,8 +12,8 @@ describe Trawler::Document do
   end
 
   describe "#fetch_document" do
-    it "returns a nokogiri document" do
-      expect(doc.fetch_document).to be_a Nokogiri::HTML::Document
+    it "returns a document from the url as a string" do
+      expect(doc.doc).to be_a String
     end
   end
 end

@@ -14,7 +14,7 @@ describe Trawler do
     end
 
     it "has the original url" do
-      expect(haul.host).to eq("www.cats.com")
+      expect(haul.host).to eq("http://www.dogshaming.com/")
     end
 
     [:videos, :images, :description, :title].each do |attr|
