@@ -10,7 +10,6 @@ module Trawler
 
     def call
       get_page   
-
       self
     end
 

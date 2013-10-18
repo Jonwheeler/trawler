@@ -1,28 +1,22 @@
-require "nokogiri"
-
 module Trawler
   class Document
     def initialize(url, options = {}) 
       @url    = url
-      @parser = options[:parser]     || Parser
-      @spider = options[:spider]     || Spider
-      @image  = options[:image_size] || "100px"
+      @parser = options.fetch(:parser, Parser)
+      @spider = options.fetch(:spider, Spider)
+      @image  = options.fetch(:image_size, "100")
     end
 
     def parse
-      ParsedDocument.new(parsed_data, @image_size)
+      ParsedDocument.new(parsed_data)
     end
 
     def parsed_data
-      @parser.new(@url, doc).call
+      Parser.new(page: doc.page, url: doc.url, image_size: @image)
     end
 
     def doc
       @page ||= @spider.new(@url).call
-    end
-
-    def fetch_document
-      @spider.new(@url).call
     end
   end
 end
