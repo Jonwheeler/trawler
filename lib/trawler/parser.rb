@@ -53,7 +53,11 @@ module Trawler
       images.reject! { |img| img[:alt] =~ /(loading|spinner)/i }
       images.reject! { |img| img[:class] =~ /(loading|spinner|icon)/i }
       images.reject! { |img| img[:width] && img[:width] < @min_image_size }
-      images.map { |img| img[:src] }
+      buzzfeed_images = images.map { |i| i["rel:bf_image_src"].to_s }
+      images.reject! { |img| img[:src] =~ /(background|icons|icon)/i }
+      images.map! { |img| img[:src] }
+      images << buzzfeed_images
+     # images
     end
 
     def meta_title

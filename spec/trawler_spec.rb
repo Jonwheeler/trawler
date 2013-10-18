@@ -2,7 +2,6 @@ require "spec_helper"
 
 describe Trawler do
   describe "#fetch" do
-
     before do
       Trawler::Spider.any_instance.stub(:get_page) { fixture("sample_pages/tumblr.html") }
     end
