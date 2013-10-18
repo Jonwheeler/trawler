@@ -35,7 +35,7 @@ describe Trawler::Parser do
       end
 
       it "all the images that are larger than the min image size" do
-        expect(parser.images.size).to eq 11
+        expect(parser.images.size).to eq 10
       end
     end
   end
