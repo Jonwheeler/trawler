@@ -41,7 +41,6 @@ describe Trawler::Parser do
   end
 
   context "video page" do
-
     let(:page) { fixture("sample_pages/youtube.html") }
     let(:parser) do
       Trawler::Parser.new(
@@ -65,6 +64,37 @@ describe Trawler::Parser do
 
     it "gets the images" do
       expect(parser.images).to include "http://i1.ytimg.com/vi/OrIFaWJ9Glo/maxresdefault.jpg"
+    end
+  end
+
+  context "document style page" do
+    let(:page) { fixture("sample_pages/simple.html") }
+    let(:parser) do
+      Trawler::Parser.new(
+        page: page,
+        url: "foobar",
+        image_size: "100"
+      )
+    end
+
+    let(:description) do
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus velit in lacus mollis vehicula nec a arcu"
+    end
+
+    it "returns the description from the body of the text" do
+      expect(parser.description[0..120]).to match description
+    end
+
+    it "gets the title from the html" do
+      expect(parser.title).to eq "Super simple html page"
+    end
+
+    it "gets no images" do
+      expect(parser.images).to be_empty
+    end
+
+    it "gets no video" do
+      expect(parser.video).to be_nil
     end
   end
 end
