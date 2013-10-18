@@ -24,17 +24,17 @@ ParsedDocument object.
 
 ```ruby
   doc = Trawler.fetch("www.foobar.com") 
-  doc.host        #=> "http://www.foobar.com"
-  doc.description #=> "Descriptive meta tag"
-  doc.title       #=> "Foobar.com The place of Foo"
-  doc.images      #=> [
-                        http://www.foobar.com/assets/bar.png,
-                        http://www.foobar.com/assets/baz.jpg,
-                        http://www.foobar.com/assets/bat.gif
-                       ]
-  doc.videos       #=> [
-                        http://www.vimeo.com/354357349
-                       ]
+  doc.url         # => "http://www.foobar.com"
+  doc.description # => "Descriptive meta tag"
+  doc.title       # => "Foobar.com The place of Foo"
+  doc.images      # => [
+                  #      http://www.foobar.com/assets/bar.png,
+                  #      http://www.foobar.com/assets/baz.jpg,
+                  #      http://www.foobar.com/assets/bat.gif
+                  #     ]
+  doc.video       # => [
+                  #      http://www.vimeo.com/354357349
+                  #     ]
 ```
 
 ## Testing
