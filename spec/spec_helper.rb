@@ -1,5 +1,6 @@
 require 'webmock/rspec'
 require "simplecov"
+require "json"
 require "vcr"
 
 SimpleCov.start do
@@ -7,7 +8,7 @@ SimpleCov.start do
 end
 
 VCR.configure do |c|
-  c.cassette_library_dir = 'fixtures/vcr_cassettes'
+  c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
   c.hook_into :webmock
 end
 

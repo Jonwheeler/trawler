@@ -1,9 +1,8 @@
 require "spec_helper"
 
 describe Trawler::Parser do
-
   context "image rich page" do
-    let(:page) { fixture("youtube.html") }
+    let(:page) { fixture("sample_pages/tumblr.html") }
     let(:parser) do
       Trawler::Parser.new(
         page:       page, 
@@ -18,9 +17,8 @@ describe Trawler::Parser do
       end
     end
 
-    it "geets the meta dta" do
-
+    it "gets the meta data" do
+      puts parser.scrape_meta_data
     end
-
   end
 end
