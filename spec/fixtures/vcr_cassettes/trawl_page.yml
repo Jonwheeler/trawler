@@ -21,10 +21,10 @@ http_interactions:
       Server:
       - Apache
       Set-Cookie:
-      - COOKIE=10.5.19.71.1382113089263415; path=/
+      - COOKIE=10.5.19.71.1382123959465997; path=/
       - referrer=; path=/
       - referrer=www.cats.com; path=/
-      - t=e0c13f00381011e3a9020015c5e70714; path=/
+      - t=2fe697b0382a11e3a9020015c5e70714; path=/
       Etag:
       - '"AAAAUHDDtBw"'
       Last-Modified:
@@ -40,9 +40,9 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Fri, 18 Oct 2013 16:18:09 GMT
+      - Fri, 18 Oct 2013 19:19:19 GMT
       X-Varnish:
-      - '2125073762'
+      - '2126042946'
       Age:
       - '0'
       Via:
@@ -53,5 +53,5 @@ http_interactions:
       encoding: UTF-8
       string: "<html>\r\n<body>\r\n</body>\r\n</html>\r\n"
     http_version: 
-  recorded_at: Fri, 18 Oct 2013 16:18:06 GMT
+  recorded_at: Fri, 18 Oct 2013 19:19:14 GMT
 recorded_with: VCR 2.6.0
