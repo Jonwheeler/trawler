@@ -1,26 +1,30 @@
 module Trawler
   class ParsedDocument
-    attr_reader :host, :data
+    attr_reader :url, :data
 
     def initialize(host, data)
-      @host = host
+      @url  = host
       @data = data
     end
 
     def title
-      data[:title]
+      data.title
     end
   
-    def videos
-      []
+    def video
+      data.video
     end
 
     def images
-      []
+      data.images
     end
 
     def description
-      data[:description]
+      data.description
+    end
+
+    def raw_data
+      @raw_data ||= data.document
     end
   end
 end

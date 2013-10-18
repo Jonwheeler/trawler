@@ -14,19 +14,17 @@ describe Trawler do
     end
 
     it "has the original url" do
-      expect(haul.host).to eq("http://www.dogshaming.com/")
+      expect(haul.url).to eq("http://www.dogshaming.com/")
     end
 
-    [:videos, :images, :description, :title].each do |attr|
+    [:video, :images, :description, :title].each do |attr|
       it "has #{attr}" do
         expect(haul).to respond_to(attr)
       end
     end
 
-    [:videos, :images].each do |attr|
-      it "returns an array of #{attr}" do
-        expect(haul.send(attr)).to be_a Array
-      end
+    it "returns an array of images" do
+      expect(haul.images).to be_a Array
     end
   end
 end
