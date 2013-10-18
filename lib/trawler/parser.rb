@@ -22,10 +22,22 @@ module Trawler
     end
 
     def images
-      images = []
-      images << meta_image 
+      images = [meta_image]
       images << find_images
-      images.flatten.compact.map { |i| i.strip }.uniq
+      images.flatten!
+      images = images.select { |img| !img.nil? }.select { |s| !s.empty? }
+      images.flatten.map! { |img| img.strip }.uniq
+      images.map { |img| normalize_url(img) }
+    end
+
+    def normalize_url(uri)
+      if uri =~ /^\w*\:/i
+        return uri
+      else
+        Addressable::URI.join(url, uri).normalize.to_s
+      end
+    rescue URI::InvalidURIError, Addressable::URI::InvalidURIError => e
+      add_fatal_error "Link parsing exception: #{e.message}" and nil
     end
 
     def video
