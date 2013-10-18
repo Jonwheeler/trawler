@@ -26,8 +26,9 @@ module Trawler
       images << find_images
       images.flatten!
       images = images.select { |img| !img.nil? }.select { |s| !s.empty? }
-      images.flatten.map! { |img| img.strip }.uniq
-      images.map { |img| normalize_url(img) }
+      images.flatten.map! { |img| img.strip }
+      images.map! { |img| normalize_url(img) }
+      images.uniq
     end
 
     def normalize_url(uri)
@@ -69,7 +70,7 @@ module Trawler
       images.reject! { |img| img[:src] =~ /(background|icons|icon)/i }
       images.map! { |img| img[:src] }
       images << buzzfeed_images
-     # images
+      images.flatten.uniq
     end
 
     def meta_title
