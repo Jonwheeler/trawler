@@ -49,6 +49,10 @@ module Trawler
       @document ||= Nokogiri::HTML(@page) 
     end
 
+    def video_still
+      meta_image
+    end
+
     private
 
     def html_title

@@ -65,6 +65,10 @@ describe Trawler::Parser do
     it "gets the images" do
       expect(parser.images).to include "http://i1.ytimg.com/vi/OrIFaWJ9Glo/maxresdefault.jpg"
     end
+
+    it "gets an image as the placeholder for the video" do
+      expect(parser.video_still).to eq "http://i1.ytimg.com/vi/OrIFaWJ9Glo/maxresdefault.jpg"
+    end
   end
 
   context "document style page" do

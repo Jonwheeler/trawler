@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe Trawler::ParsedDocument do
 
-  let(:data)  { double("PARSER", images: ["foo"], title: "foobar", video: "bar", description: "foobarbaz", document: "") }
+  let(:data)  { double("PARSER", images: ["foo"], title: "foobar", video: "bar", video_still: "barfoo", description: "foobarbaz", document: "") }
   let(:doc)  { Trawler::ParsedDocument.new("www.cats.com", data) }
 
   it "sets the url" do
@@ -28,5 +28,9 @@ describe Trawler::ParsedDocument do
 
   it "has the raw data" do
     expect(doc.raw_data).to eq ""
+  end
+
+  it "has the video still" do
+    expect(doc.video_still).to eq "barfoo"
   end
 end

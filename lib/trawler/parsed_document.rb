@@ -23,6 +23,10 @@ module Trawler
       data.description
     end
 
+    def video_still
+      data.video_still
+    end
+
     def raw_data
       @raw_data ||= data.document
     end
