@@ -25,7 +25,7 @@ describe Trawler::Spider do
   describe "#get_page" do
     it "returns a string" do
       VCR.use_cassette("trawl_page") do
-        expect(spider.get_page).to be_a StringIO
+        expect(spider.get_page).to be_a String
       end
     end
   end

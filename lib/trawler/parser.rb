@@ -47,6 +47,8 @@ module Trawler
 
     def document 
       @document ||= Nokogiri::HTML(@page) 
+      @document.encoding = "UTF-8"
+      @document
     end
 
     def video_still

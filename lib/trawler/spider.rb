@@ -18,7 +18,7 @@ module Trawler
     end
 
     def get_page
-      @page ||= open(full_url)
+      @page ||= open(full_url).read
     end
   end
 end

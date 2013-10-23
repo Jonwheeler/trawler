@@ -1,0 +1,723 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.dogshaming.com/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 23 Oct 2013 19:50:39 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding,Cookie
+      Cache-Control:
+      - max-age=3, must-revalidate
+      Wp-Super-Cache:
+      - Served supercache file from PHP
+      Content-Length:
+      - '9244'
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: "<!doctype html>  \r\n\r\n<!--[if lt IE 7]>      <html class=\"no-js
+        lt-ie9 lt-ie8 lt-ie7\"> <![endif]-->\r\n<!--[if IE 7]>         <html class=\"no-js
+        lt-ie9 lt-ie8\"> <![endif]-->\r\n<!--[if IE 8]>         <html class=\"no-js
+        lt-ie9\"> <![endif]-->\r\n<!--[if gt IE 8]><!--> <html class=\"no-js\"> <!--<![endif]-->\r\n\r\n\t\r\n\t<head>\r\n\t\t<meta
+        charset=\"utf-8\">\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\r\n\t\t\r\n\t\t<title></title>\r\n\t\t\t\t\r\n\t\t<meta
+        name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t\r\n\t\t<!--
+        icons & favicons -->\r\n\t\t<!-- For iPhone 4 -->\r\n\t\t<link rel=\"apple-touch-icon-precomposed\"
+        sizes=\"114x114\" href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/library/images/icons/h/apple-touch-icon.png\">\r\n\t\t<!--
+        For iPad 1-->\r\n\t\t<link rel=\"apple-touch-icon-precomposed\" sizes=\"72x72\"
+        href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/library/images/icons/m/apple-touch-icon.png\">\r\n\t\t<!--
+        For iPhone 3G, iPod Touch and Android -->\r\n\t\t<link rel=\"apple-touch-icon-precomposed\"
+        href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/library/images/icons/l/apple-touch-icon-precomposed.png\">\r\n\t\t<!--
+        For Nokia -->\r\n\t\t<link rel=\"shortcut icon\" href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/library/images/icons/l/apple-touch-icon.png\">\r\n\t\t<!--
+        For everything else -->\r\n\t\t<link rel=\"shortcut icon\" href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/favicon.ico?v=2\">\r\n\t\t\t\t\r\n\t\t<!--
+        media-queries.js (fallback) -->\r\n\t\t<!--[if lt IE 9]>\r\n\t\t\t<script
+        src=\"http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js\"></script>\t\t\t\r\n\t\t<![endif]-->\r\n\r\n\t\t\r\n
+        \ \t\t<link rel=\"pingback\" href=\"http://www.dogshaming.com/xmlrpc.php\">\r\n\r\n\r\n\t\t<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"http://cache.blogads.com/921961955/feed.css\"
+        />\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"http://cache.blogads.com/921961956/feed.css\"
+        />\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"http://cache.blogads.com/921961957/feed.css\"
+        />\r\n\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"http://cache.blogads.com/921961958/feed.css\"
+        />\r\n\r\n\t\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS
+        2.0\" href=\"http://www.dogshaming.com/feed/\" />\r\n\t\t<link rel=\"alternate\"
+        type=\"text/xml\" title=\"RSS .92\" href=\"http://www.dogshaming.com/feed/rss/\"
+        />\r\n\t\t<link rel=\"alternate\" type=\"application/atom+xml\" title=\"Atom
+        0.3\" href=\"http://www.dogshaming.com/feed/atom/\" /\r\n\r\n\r\n\r\n\t\t<link
+        rel=\"stylesheet\" type=\"text/css\" media=\"all\" href=\"http://www.dogshaming.com/wp-content/themes/dogshaming/style.css\"
+        />\r\n\t\t\r\n\t\t<!-- wordpress head functions -->\r\n\t\t<link rel='stylesheet'
+        id='jetpack-widgets-css'  href='http://www.dogshaming.com/wp-content/plugins/jetpack/modules/widgets/widgets.css?ver=20121003'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='open-sans-css'
+        \ href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C800&#038;ver=3.5.1'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='foundation-app-css'
+        \ href='http://www.dogshaming.com/wp-content/themes/dogshaming/stylesheets/app.css?ver=3.0'
+        type='text/css' media='all' />\n<link rel='stylesheet' id='sharedaddy-css'
+        \ href='http://www.dogshaming.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=2.4.2'
+        type='text/css' media='all' />\n<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js?ver=3.5.1'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/modernizr.foundation.js?ver=3.5.1'></script>\n<link
+        rel='shortlink' href='http://wp.me/2TGLY' />\n\n<!--Plugin WP Missed Schedule
+        2013.0130.2222 Active - 64Bit Security Tag Key: bkytCi8L522P8RbgYIlkQbL6Yz4JDvIWlTlXN5q776Yvq5t7gxkCvB643C7osdFV6-->\n\n<!--
+        Jetpack Open Graph Tags -->\n<meta property=\"og:type\" content=\"blog\" />\n<meta
+        property=\"og:title\" content=\"Dogshaming\" />\n<meta property=\"og:url\"
+        content=\"http://www.dogshaming.com/\" />\n<meta property=\"og:site_name\"
+        content=\"Dogshaming\" />\n<meta name=\"twitter:site\" content=\"@jetpack\"
+        />\n\t\t<!-- end of wordpress head -->\r\n\r\n\r\n\r\n\t\t\r\n\t\t<!-- bring
+        in theme options styles -->\r\n\t\t<style>\r\n\t\t\th1, h2, h3, h4, h5, h6{
+        \r\n\t\t\t\tfont-family: Open Sans; \r\n\t\t\t\tfont-weight: normal; \r\n\t\t\t\tcolor:
+        #222222; \r\n\t\t\t}\r\n\t\t\tbody{ \r\n\t\t\t\tfont-family: Open Sans; \r\n\t\t\t\tfont-weight:
+        normal; \r\n\t\t\t\tcolor: #222222; \r\n\t\t\t}\r\n\t\t\ta{ \r\n\t\t\t/*\tcolor:
+        #2BA6CB;  */\r\n\t\t\t}\r\n\t\t\ta:hover{ \r\n\t\t\t\tcolor: #2795B6; \r\n\t\t\t}\r\n\t\t\ta:active{
+        \r\n\t\t\t\tcolor: #2BA6CB; \r\n\t\t\t}\r\n\t\t\t.top-nav { \r\n\t\t\t\tbackground-color:
+        #4D4D4D;\r\n\t\t\t}\r\n\t\t\t.top-nav > li > a { \r\n\t\t\t\tcolor: #E6E6E6
+        !important;\r\n\t\t\t}\r\n\t\t\t.top-nav > li > a:hover { \r\n\t\t\t\tcolor:
+        #E6E6E6 !important;\r\n\t\t\t}\r\n\t\t\t#main article {\r\n\t\t\t\t/* border-bottom:
+        none; */\r\n\t\t\t}\r\n\t\t\t</style>\t\t\t\t\r\n\t</head>\r\n\t\r\n\t<body
+        class=\"home blog\">\r\n\r\n\t\t<div class=\"row container\" id=\"page\">\r\n\t\t\t<div
+        class=\"small-12 columns\">\r\n\t\t\t\t<header role=\"banner\" id=\"top-header\">\r\n\t\t\t\t\t\r\n\t\t\t\t\t<div
+        class=\"siteinfo\"> <!--\r\n\t\t\t\t\t\t<h1><a class=\"brand\" id=\"logo\"
+        href=\"http://www.dogshaming.com\">Dogshaming</a></h1>\r\n\t\t\t\t\t\t<h4
+        class=\"subhead\"></h4> -->\r\n\t\t\t\t\t\t<a href=\"http://www.dogshaming.com/\"
+        title=\"Dogshaming\" rel=\"home\"><img src=\"http://www.dogshaming.com/wp-content/themes/dogshaming/images/ds-head.png?v=3\"
+        /></a>\r\n\t\t\t\t\t</div>\r\n\t\t\t\r\n\t\t\t\t\t<div class=\"ad\"><script
+        language=\"javascript\" src=\"http://cache.blogads.com/921961956/feed.js\"></script></div>\r\n\r\n\t\t\t\t\t\t\t\t\t\t<!--
+        \r\n\t\t\t\t\t<div class=\"show-for-small menu-action\">\r\n\t\t\t\t  \t    <a
+        href=\"#sidebar\" id=\"mobile-nav-button\" class=\"sidebar-button small secondary
+        button\">\r\n\t\t\t\t\t\t\t<svg xml:space=\"preserve\" enable-background=\"new
+        0 0 48 48\" viewBox=\"0 0 48 48\" height=\"18px\" width=\"18px\" y=\"0px\"
+        x=\"0px\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns=\"http://www.w3.org/2000/svg\"
+        id=\"Layer_1\" version=\"1.1\">\r\n\t\t\t\t\t\t\t\t<line y2=\"8.907\" x2=\"48\"
+        y1=\"8.907\" x1=\"0\" stroke-miterlimit=\"10\" stroke-width=\"8\" stroke=\"#000000\"
+        fill=\"none\"/>\r\n\t\t\t\t\t\t\t\t<line y2=\"24.173\" x2=\"48\" y1=\"24.173\"
+        x1=\"0\" stroke-miterlimit=\"10\" stroke-width=\"8\" stroke=\"#000000\" fill=\"none\"/>\r\n\t\t\t\t\t\t\t\t<line
+        y2=\"39.439\" x2=\"48\" y1=\"39.439\" x1=\"0\" stroke-miterlimit=\"10\" stroke-width=\"8\"
+        stroke=\"#000000\" fill=\"none\"/>\r\n\t\t\t\t\t\t\t\tMenu\r\n\t\t\t\t\t\t\t</svg>\r\n\t\t\t\t\t\t</a>\r\n\t\t\t\t\t</div>\r\n\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\t-->\r\n\r\n\t\t\t\t\t<div
+        class=\"small-12 columns\">\r\n\r\n\t\t\t\t\t\t\r\n\r\n\r\n\r\n\r\n\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</header>
+        <!-- end header -->\r\n\t\t\t</div>\t\t\t\n\t\t\t<div id=\"content\">\n\t\t\t\n\t\t\t\t<div
+        id=\"main\" class=\"small-12 large-8  columns push-2\" role=\"main\">\n\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550695\" class=\"post-2147550695 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/find-the-lizard/\" rel=\"bookmark\"
+        title=\"Find the lizard!!\">Find the lizard!!</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/find-the-lizard/\"
+        title=\"Find the lizard!!\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image509-637x477.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"image509\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image509.jpg\"></a></p>\n<p>I
+        caught a lizard &amp; brought it inside while it was still alive &amp; set
+        it free. My owner then had to spend 20 minutes moving furniture searching
+        for it. It was worth it!!</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-23\" pubdate>October 23rd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550695\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550695\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550695\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/find-the-lizard/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550538\" class=\"post-2147550538 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/well-fed/\" rel=\"bookmark\" title=\"Well
+        Fed\">Well Fed</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/well-fed/\"
+        title=\"Well Fed\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/IMG_2582-637x849.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"IMG_2582\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/IMG_2582.jpg\"></a></p>\n<p>&#8220;I
+        ATE 3 BIG STEAKS OFF THE DINING ROOM TABLE WHEN MY HUNGRY FAMILY WASN&#8217;T
+        LOOKING. I KNEW IT WAS WRONG AND I DID IT ANYWAY.&#8221; Finn can&#8217;t
+        help himself, he will scavenge any food left within reach as soon as your
+        back is turned. We had salad.</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-23\" pubdate>October 23rd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550538\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550538\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550538\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/well-fed/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550633\" class=\"post-2147550633 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/\" rel=\"bookmark\"
+        title=\"The Shaming of Millhouse\">The Shaming of Millhouse</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/\"
+        title=\"The Shaming of Millhouse\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/Millie-shame-637x477.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"Millie-shame\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/Millie-shame.jpg\"></a></p>\n<p>I
+        pood on a coiled extension cord. Actually it was diarrhea. And while my mom
+        cleaned all 50 feet of it, I ripped down the shower curtain and peed on it.</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-23\" pubdate>October 23rd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550633\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550633\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550633\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-shaming-of-millhouse/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550514\" class=\"post-2147550514 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/i-lick-everything/\" rel=\"bookmark\"
+        title=\"I lick everything!\">I lick everything!</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/i-lick-everything/\"
+        title=\"I lick everything!\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/Reggiesign-637x477.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"Reggiesign\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/Reggiesign.jpg\"></a></p>\n<p>Reggie
+        has to lick everything no matter what it is!</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-22\" pubdate>October 22nd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550514\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550514\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550514\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/i-lick-everything/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550516\" class=\"post-2147550516 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/\" rel=\"bookmark\"
+        title=\"Dutch &#8211; The Tennis Ball Thief\">Dutch &#8211; The Tennis Ball
+        Thief</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/\"
+        title=\"Dutch &#8211; The Tennis Ball Thief\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image496-637x637.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"image496\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image496.jpg\"></a></p>\n<p>We
+        have never purchased a tennis ball for Dutch. Ever. However, he has tennis
+        balls stashed all over our yard and garage. No matter how many cool toys we
+        buy for him, the dirty tennis balls will always be his favourite!</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-22\" pubdate>October 22nd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550516\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550516\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550516\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/dutch-the-tennis-ball-thief/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550520\" class=\"post-2147550520 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/\" rel=\"bookmark\"
+        title=\"Breakfast at Lucy&#8217;s\">Breakfast at Lucy&#8217;s</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/\"
+        title=\"Breakfast at Lucy&#8217;s\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image497-e1382462984543-637x849.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"image497\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image497-e1382462984543.jpg\"></a></p>\n<p>Lucy
+        ate her momma&#8217;s cinnamon roll.</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-22\" pubdate>October 22nd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550520\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550520\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550520\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/breakfast-at-lucys/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550454\" class=\"post-2147550454 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/bad-big-sister/\" rel=\"bookmark\"
+        title=\"Bad big sister\">Bad big sister</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/bad-big-sister/\"
+        title=\"Bad big sister\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image491-637x424.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"image491\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image491.jpg\"></a></p>\n<p>I
+        pooped in Conners room and tried to blame the puppy.</p>\n<p>-Rosie</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-22\" pubdate>October 22nd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550454\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550454\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550454\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/bad-big-sister/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550490\" class=\"post-2147550490 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/\" rel=\"bookmark\"
+        title=\"Loud and Disgusting\">Loud and Disgusting</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/\"
+        title=\"Loud and Disgusting\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/photo38-637x571.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"photo38\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/photo38.jpg\"></a></p>\n<p>Hi
+        I am Mary Jane. I bark all the time and make disgusting noises under my owner&#8217;s
+        bed so they can&#8217;t sleep</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-22\" pubdate>October 22nd,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550490\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550490\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550490\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/loud-and-disgusting/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550470\" class=\"post-2147550470 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/\" rel=\"bookmark\"
+        title=\"The fresher the better&#8230;\">The fresher the better&#8230;</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/\"
+        title=\"The fresher the better&#8230;\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image492-e1382377559547-637x849.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"image492\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/image492-e1382377559547.jpg\"></a></p>\n<p>I
+        think it&#8217;s fun to roll in big wet piles of bird poop!</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-21\" pubdate>October 21st,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550470\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550470\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550470\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/the-fresher-the-better/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<article
+        id=\"post-2147550484\" class=\"post-2147550484 post type-post status-publish
+        format-standard hentry category-submitted clearfix\" role=\"article\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<header>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<h2><a
+        href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/\" rel=\"bookmark\"
+        title=\"Quiche today, gas tomorrow\">Quiche today, gas tomorrow</a></h2>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t</header>
+        <!-- end article header -->\n\t\t\t\t\t\n\n\n\t\t\t\t\t\t<figure class=\"vignette
+        overlay inset\">\n\t\t\t\t\t\t  <a href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/\"
+        title=\"Quiche today, gas tomorrow\"><img src=\"http://www.dogshaming.com/wp-content/uploads/2013/04/photo37-637x521.jpg\"
+        class=\"attachment-large wp-post-image\" alt=\"photo37\" /></a>\n\t\t\t\t\t
+        \ \t</figure>\n\n\n\t\t\t\t\t\t<section class=\"post_content clearfix\">\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+        \ \t\t\t\t\t\t\t<p><a href=\"http://www.dogshaming.com/wp-content/uploads/2013/04/photo37.jpg\"></a></p>\n<p>&#8220;I
+        ate an entire frozen Quiche off of the counter,<br />\nthen farted stinky
+        farts the whole next day&#8230;.&#8221;</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t</section>
+        <!-- end article section -->\n\t\t\t\t\t\t\n\t\t\t\t\t\t<footer>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+        class=\"meta\">Posted on <time datetime=\"2013-10-21\" pubdate>October 21st,
+        2013</time></p>\n\t\t\t\t\t\t\t<!-- <p class=\"tags\"></p> -->\n\t\t\t\t\t\t\t<div
+        class=\"sharedaddy sd-sharing-enabled\"><div class=\"robots-nocontent sd-block
+        sd-social sd-social-icon-text sd-sharing\"><h3 class=\"sd-title\">Share this:</h3><div
+        class=\"sd-content\"><ul><li class=\"share-facebook\"><a rel=\"nofollow\"
+        class=\"share-facebook sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=facebook\"
+        title=\"Share on Facebook\" id=\"sharing-facebook-2147550484\"><span>Facebook</span></a></li><li
+        class=\"share-twitter\"><a rel=\"nofollow\" class=\"share-twitter sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=twitter\"
+        title=\"Click to share on Twitter\" id=\"sharing-twitter-2147550484\"><span>Twitter</span></a></li><li
+        class=\"share-pinterest\"><a rel=\"nofollow\" class=\"share-pinterest sd-button
+        share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=pinterest\"
+        title=\"Click to share on Pinterest\"><span>Pinterest</span></a></li><li class=\"share-tumblr\"><a
+        rel=\"nofollow\" class=\"share-tumblr sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=tumblr\"
+        title=\"Click to share on Tumblr\"><span>Tumblr</span></a></li><li><a href=\"#\"
+        class=\"sharing-anchor sd-button share-more\"><span>More</span></a></li><li
+        class=\"share-end\"></li></ul><div class=\"sharing-hidden\"><div class=\"inner\"
+        style=\"display: none;\"><ul><li class=\"share-reddit\"><a rel=\"nofollow\"
+        class=\"share-reddit sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=reddit\"
+        title=\"Click to share on Reddit\"><span>Reddit</span></a></li><li class=\"share-stumbleupon\"><a
+        rel=\"nofollow\" class=\"share-stumbleupon sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=stumbleupon\"
+        title=\"Click to share on StumbleUpon\"><span>StumbleUpon</span></a></li><li
+        class=\"share-end\"></li><li class=\"share-google-plus-1\"><a rel=\"nofollow\"
+        class=\"share-google-plus-1 sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=google-plus-1\"
+        title=\"Click to share on Google+\" id=\"sharing-google-2147550484\"><span>Google
+        +1</span></a></li><li class=\"share-email\"><a rel=\"nofollow\" class=\"share-email
+        sd-button share-icon\" href=\"http://www.dogshaming.com/2013/10/quiche-today-gas-tomorrow/?share=email\"
+        title=\"Click to email this to a friend\"><span>Email</span></a></li><li class=\"share-end\"></li><li
+        class=\"share-end\"></li></ul></div></div></div></div></div>\t\t\t\t\t\t</footer>
+        <!-- end article footer -->\n\t\t\t\t\t\n\t\t\t\t\t</article> <!-- end article
+        -->\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t<ul
+        class=\"pagination clearfix\"><li class=\"\"></li><li class=\"current\"><a
+        href=\"#\">1</a></li><li><a href=\"http://www.dogshaming.com/page/2/\">2</a></li><li><a
+        href=\"http://www.dogshaming.com/page/3/\">3</a></li><li><a href=\"http://www.dogshaming.com/page/4/\">4</a></li><li><a
+        href=\"http://www.dogshaming.com/page/5/\">5</a></li><li><a href=\"http://www.dogshaming.com/page/6/\">6</a></li><li><a
+        href=\"http://www.dogshaming.com/page/7/\">7</a></li><li class=\"\"><a href=\"http://www.dogshaming.com/page/2/\"
+        >Next &rarr;</a></li><li class=\"next\"><a href=\"http://www.dogshaming.com/page/444/\"
+        title=\"Last\">&raquo;</a></li></ul>\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t</div>
+        <!-- end #main -->\n    \n\t\t\t\t\t\t\t\t<div id=\"sidebar1\" class=\"small-12
+        large-2 columns pull-8 sidebar \" role=\"complementary\">\n\n\t\t\t\t\t\n\t\t\t\t\n\n<div
+        class=\"widget widget_submit\" id=\"submitwidget\"><p><a href=\"/submit-dog/\"
+        id=\"submitbutton\">Submit your dog!</a></p></div>\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div
+        id=\"search-5\" class=\"widget widget_search\"><!--\n<div class=\"row\">\n
+        \ <div class=\"twelve columns\">\n    <div class=\"row collapse\">\n    \t<form
+        action=\"http://www.dogshaming.com/\" method=\"get\">\n\t      <div class=\"eight
+        mobile-three columns\">\n\t        <input type=\"text\" id=\"search\" placeholder=\"Search\"
+        name=\"s\" value=\"\" />\n\t      </div>\n\t      <div class=\"four mobile-one
+        columns\">\n\t        <button type=\"submit\" id=\"search-button\" class=\"postfix
+        button\">Search</a>\n\t      </div>\n  \t\t</form>\n    </div>\n  </div>\n</div>\n-->\n\n\n\n
+        \   \t<form action=\"http://www.dogshaming.com/\" method=\"get\">\n\n\t        <input
+        type=\"text\" id=\"search\" placeholder=\"Search\" name=\"s\" value=\"\" />\n\n\n\t
+        \       <button type=\"submit\" id=\"search-button\" class=\"postfix button\">Search</button>\n\n
+        \ \t\t</form></div><div id=\"text-9\" class=\"widget widget_text\">\t\t\t<div
+        class=\"textwidget\"><img src=\"http://www.dogshaming.com/wp-content/themes/dogshaming/images/dogshaming-tweets.png\"></div>\n\t\t</div><div
+        id=\"twitter_timeline-2\" class=\"widget widget_twitter_timeline\"><a class=\"twitter-timeline\"
+        data-widget-id=\"349210796259151872\" data-theme=\"light\" data-link-color=\"#f96e5b\"
+        data-border-color=\"#e8e8e8\" data-chrome=\"noheader nofooter noborders noscrollbar
+        transparent\" width=\"225\" height=\"400\" lang=\"EN\">My Tweets</a></div><div
+        id=\"facebook-likebox-2\" class=\"widget widget_facebook_likebox\"><h4 class=\"widgettitle\"><a
+        href=\"http://www.facebook.com/dogshamingcom\">Facebook</a></h4><iframe src=\"http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fdogshamingcom&#038;width=250&#038;height=600&#038;colorscheme=light&#038;show_faces=true&#038;stream=false&#038;show_border=true&#038;header=false&#038;force_wall=false\"
+        scrolling=\"no\" frameborder=\"0\" style=\"border: none; overflow: hidden;
+        width: 250px;  height: 600px; background: #fff\"></iframe></div>\n\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t</div>\t\t\t\t\t\t\t\t<div
+        id=\"sidebar2\" class=\"small-12 large-2 columns hide-for-small sidebar\"
+        role=\"complementary\">\r\n\r\n\t\t\t\t\t\r\n\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div
+        id=\"text-8\" class=\"widget widget_text\">\t\t\t<div class=\"textwidget\"><p
+        style=\"text-align:center;font-size:0.8em;\">\r\n\r\n<a href=\"http://www.dogshamingbook.com/\"><img
+        height=\"158\" style=\"border: none;padding:2px;margin-bottom:10px;margin-top:10px;\"
+        src=\"http://www.dogshaming.com/wp-content/uploads/2013/09/dog_shaming_gen_button_new.gif\"></a>\r\n\r\n\r\n<p
+        style=\"text-align:center;font-size:0.8em;\">\r\n\r\n<strong>Dog Shaming:
+        The Book! </strong></p>\r\n\r\n\r\n<a href=\"/book\"><img height=\"300\" style=\"border:
+        1px solid #000;padding:2px;margin-bottom:10px;margin-top:10px;\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/Dog-shaming-book-257x300.jpg\"></a>\r\n\r\n\r\n<p
+        style=\"text-align: center;\">\r\n\r\n<a href=\"http://www.amazon.com/exec/obidos/ASIN/0385349343/\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/amazon-button-graphic.bmp\"
+        /></a> \r\n\r\n<a href=\"https://itunes.apple.com/us/book/dog-shaming/id642099980?mt=11\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/ibooks-button-graphic.jpg\"
+        /></a> \r\n\r\n<a href=\"http://www.randomhouse.com/book/226436/dog-shaming-by-pascale-lemire/9780385349345/\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/randomhouse-button-graphic.gif\"
+        /></a> \r\n\r\n<a href=\"http://www.barnesandnoble.com/w/dogshaming-pascale-lemire/1114194255?ean=9780385349345&amp;itm=1&amp;usri=9780385349345\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/bn-button-graphic.bmp\"
+        /></a> \r\n\r\n<a href=\"https://play.google.com/store/search?q=9780385349352&c=books\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/googlebooks-button-graphic.jpg\"
+        /></a>\r\n\r\n <a href=\"http://www.indiebound.org/book/9780385349345\"><img
+        alt=\"\" src=\"http://dogshaming.com/wp-content/themes/dogshaming/images/book/indiebound-button-graphic.bmp\"
+        /></a></p></div>\n\t\t</div><div id=\"archives-5\" class=\"widget widget_archive\"><h4
+        class=\"widgettitle\">Archives</h4>\t\t<select name=\"archive-dropdown\" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+        <option value=\"\">Select Month</option> \t<option value='http://www.dogshaming.com/2013/10/'>
+        October 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/09/'>
+        September 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/08/'>
+        August 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/07/'>
+        July 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/06/'>
+        June 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/05/'>
+        May 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/04/'>
+        April 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/03/'>
+        March 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/02/'>
+        February 2013 </option>\n\t<option value='http://www.dogshaming.com/2013/01/'>
+        January 2013 </option>\n\t<option value='http://www.dogshaming.com/2012/12/'>
+        December 2012 </option>\n\t<option value='http://www.dogshaming.com/2012/11/'>
+        November 2012 </option>\n\t<option value='http://www.dogshaming.com/2012/10/'>
+        October 2012 </option>\n\t<option value='http://www.dogshaming.com/2012/09/'>
+        September 2012 </option>\n\t<option value='http://www.dogshaming.com/2012/08/'>
+        August 2012 </option>\n </select>\n</div>\r\n\t\t\t\t\t\t\r\n\r\n\t\t\t\t\t\t\t\t<div
+        class=\"widget follow\"><p><a href=\"https://www.facebook.com/dogshamingcom\"
+        id=\"followfb\">Follow us on Facebook!</a></p>\r\n\t\t\t\t\t\t\t\t\t<p><a
+        href=\"https://twitter.com/dogshaming\" id=\"followtwit\">Follow us on Twitter!</a></p>\r\n\t\t\t\t\t\t\t\t\t<p><a
+        href=\"http://pinterest.com/source/dog-shaming.com/\" id=\"followpin\">Follow
+        us on Pinterest!</a></p>\r\n\t\t\t\t\t\t\t\t\t<p><a href=\"http://dogshaming.tumblr.com/\"
+        id=\"followtum\">Follow us on Tumblr!</a></p></div>\r\n\r\n\r\n\t\t\t\t\t\t\t\t\t
+        <p><script language=\"javascript\" src=\"http://cache.blogads.com/255926792/feed.js\"></script></p>\r\n\t\t\t\t\t\t\t\t\t
+        \t\t\t\t\t\t\t\t\t\r\n\r\n\r\n<!--\r\n\t\t\t\t\t\t\t     <p><img src=\"http://placehold.it/160x728&text=[ad]\"
+        /></p>\r\n     \t\t\t\t\t\t\t <p><img src=\"http://placehold.it/160x728&text=[ad]\"
+        /></p>\r\n-->\r\n\r\n\r\n\t\t\t\t\r\n\r\n\t\t\t\t</div>    \n\t\t\t</div>
+        <!-- end #content -->\n\n\t\t\t<footer role=\"contentinfo\" id=\"lowfooter\">\n\t\t\t\n\t\t\t\t\t<div
+        class=\"small-12 columns\">\n\n\t\t\t\t\t\t<div class=\"row\">\n\n\n\n\t\t\t\t\t\t\t<div
+        class=\"small-12 columns clearfix small-centered\" id=\"footerads\">\n\t\t\t\t\t\t\t\t<!--
+        <a href=\"#\"><img src=\"http://placehold.it/300x240&text=[img]\" /></a> <a
+        href=\"#\"><img src=\"http://placehold.it/300x240&text=[img]\" /></a> <a href=\"#\"><img
+        src=\"http://placehold.it/300x240&text=[img]\" /></a> -->\n\t\t\t\t\t\t\t\t<script
+        language=\"javascript\" src=\"http://cache.blogads.com/921961957/feed.js\"></script>
+        <script language=\"javascript\" src=\"http://cache.blogads.com/921961957/feed.js\"></script>
+        <script language=\"javascript\" src=\"http://cache.blogads.com/921961957/feed.js\"></script>\n\n\n\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<nav
+        class=\"small-12 large-6 columns clearfix large-offset-6\">\n\t\t\t\t\t\t\t\t<div
+        class=\"footer-links clearfix\"><ul id=\"menu-footer-menu\" class=\"link-list\"><li
+        ><a href=\"http://www.dogshaming.com/privacy-policy/\">Privacy Policy</a></li>\n<li
+        ><a href=\"http://www.dogshaming.com/terms/\">Terms of Use</a></li>\n<li ><a
+        href=\"http://www.dogshaming.com/contact/\">Contact Us</a></li>\n<li ><a href=\"http://www.dogshaming.com/faq/\">FAQ</a></li>\n</ul></div>\t\t\t\t\t\t\t</nav>\n\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\t<!--
+        <p class=\"attribution small-12 large-6 columns\">Website by <a href=\"http://townhallcommunications.ca/\">Townhall
+        Communications</a></p> -->\n\n\t\t\t\t\t\t</div>\n\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t</footer>
+        <!-- end footer -->\n\t\t\n\t\t</div> <!-- end #container -->\n\t\t\n\t\t<!--[if
+        lt IE 7 ]>\n  \t\t\t<script src=\"//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js\"></script>\n
+        \ \t\t\t<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>\n\t\t<![endif]-->\n\t\t\n\t\t\n<!--Plugin
+        WP Missed Schedule 2013.0130.2222 Active - 64Bit Security Tag Key: bkytCi8L522P8RbgYIlkQbL6Yz4JDvIWlTlXN5q776Yvq5t7gxkCvB643C7osdFV6-->\n\t<div
+        style=\"display:none\">\n\t</div>\n\n\t<script type=\"text/javascript\">\n\t\tWPCOM_sharing_counts
+        = {\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/find-the-lizard\\/\":2147550695,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/well-fed\\/\":2147550538,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/the-shaming-of-millhouse\\/\":2147550633,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/i-lick-everything\\/\":2147550514,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/dutch-the-tennis-ball-thief\\/\":2147550516,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/breakfast-at-lucys\\/\":2147550520,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/bad-big-sister\\/\":2147550454,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/loud-and-disgusting\\/\":2147550490,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/the-fresher-the-better\\/\":2147550470,\"http:\\/\\/www.dogshaming.com\\/2013\\/10\\/quiche-today-gas-tomorrow\\/\":2147550484}\t</script>\n\t\t<script
+        type=\"text/javascript\">\n\t\tjQuery(document).on( 'ready post-load', function(){\n\t\t\tjQuery(
+        'a.share-facebook' ).on( 'click', function() {\n\t\t\t\twindow.open( jQuery(this).attr(
+        'href' ), 'wpcomfacebook', 'menubar=1,resizable=1,width=600,height=400' );\n\t\t\t\treturn
+        false;\n\t\t\t});\n\t\t});\n\t\t</script>\n\t\t\t\t<script type=\"text/javascript\">\n\t\tjQuery(document).on(
+        'ready post-load', function(){\n\t\t\tjQuery( 'a.share-twitter' ).on( 'click',
+        function() {\n\t\t\t\twindow.open( jQuery(this).attr( 'href' ), 'wpcomtwitter',
+        'menubar=1,resizable=1,width=600,height=350' );\n\t\t\t\treturn false;\n\t\t\t});\n\t\t});\n\t\t</script>\n\t\t\t\t\t\t\t<script
+        type=\"text/javascript\">\n\t\t\tjQuery(document).on('ready', function(){\n\t\t\t\tjQuery('body').on('click',
+        'a.share-pinterest', function(e){\n\t\t\t\t\te.preventDefault();\n\n\t\t\t\t\t//
+        Load Pinterest Bookmarklet code\n\t\t\t\t\tvar s = document.createElement(\"script\");\n\t\t\t\t\ts.type
+        = \"text/javascript\";\n\t\t\t\t\ts.src = window.location.protocol + \"//assets.pinterest.com/js/pinmarklet.js?r=\"
+        + ( Math.random() * 99999999 );\n\t\t\t\t\tvar x = document.getElementsByTagName(\"script\")[0];\n\t\t\t\t\tx.parentNode.insertBefore(s,
+        x);\n\n\t\t\t\t\t// Trigger Stats\n\t\t\t\t\tvar s = document.createElement(\"script\");\n\t\t\t\t\ts.type
+        = \"text/javascript\";\n\t\t\t\t\ts.src = this + ( this.toString().indexOf(
+        '?' ) ? '&' : '?' ) + 'js_only=1';\n\t\t\t\t\tvar x = document.getElementsByTagName(\"script\")[0];\n\t\t\t\t\tx.parentNode.insertBefore(s,
+        x);\n\t\t\t\t});\n\t\t\t});\n\t\t\t</script>\n\t\t\t\t<script type=\"text/javascript\">\n\t\tjQuery(document).on(
+        'ready post-load', function(){\n\t\t\tjQuery( 'a.share-tumblr' ).on( 'click',
+        function() {\n\t\t\t\twindow.open( jQuery(this).attr( 'href' ), 'wpcomtumblr',
+        'menubar=1,resizable=1,width=450,height=450' );\n\t\t\t\treturn false;\n\t\t\t});\n\t\t});\n\t\t</script>\n\t\t\t\t<script
+        type=\"text/javascript\">\n\t\tjQuery(document).on( 'ready post-load', function(){\n\t\t\tjQuery(
+        'a.share-google-plus-1' ).on( 'click', function() {\n\t\t\t\twindow.open(
+        jQuery(this).attr( 'href' ), 'wpcomgoogle-plus-1', 'menubar=1,resizable=1,width=600,height=600'
+        );\n\t\t\t\treturn false;\n\t\t\t});\n\t\t});\n\t\t</script>\n\t\t\t<div id=\"sharing_email\"
+        style=\"display: none;\">\n\t\t<form action=\"/\" method=\"post\">\n\t\t\t<label
+        for=\"target_email\">Send to Email Address</label>\n\t\t\t<input type=\"text\"
+        name=\"target_email\" id=\"target_email\" value=\"\" />\n\n\t\t\t\n\t\t\t\t<label
+        for=\"source_name\">Your Name</label>\n\t\t\t\t<input type=\"text\" name=\"source_name\"
+        id=\"source_name\" value=\"\" />\n\n\t\t\t\t<label for=\"source_email\">Your
+        Email Address</label>\n\t\t\t\t<input type=\"text\" name=\"source_email\"
+        id=\"source_email\" value=\"\" />\n\n\t\t\t\n\t\t\t\n\t\t\t<img style=\"float:
+        right; display: none\" class=\"loading\" src=\"http://www.dogshaming.com/wp-content/plugins/jetpack/modules/sharedaddy/images/loading.gif\"
+        alt=\"loading\" width=\"16\" height=\"16\" />\n\t\t\t<input type=\"submit\"
+        value=\"Send Email\" class=\"sharing_send\" />\n\t\t\t<a href=\"#cancel\"
+        class=\"sharing_cancel\">Cancel</a>\n\n\t\t\t<div class=\"errors errors-1\"
+        style=\"display: none;\">\n\t\t\t\tPost was not sent - check your email addresses!\t\t\t</div>\n\n\t\t\t<div
+        class=\"errors errors-2\" style=\"display: none;\">\n\t\t\t\tEmail check failed,
+        please try again\t\t\t</div>\n\n\t\t\t<div class=\"errors errors-3\" style=\"display:
+        none;\">\n\t\t\t\tSorry, your blog cannot share posts by email.\t\t\t</div>\n\t\t</form>\n\t</div>\n<script
+        type='text/javascript' src='//platform.twitter.com/widgets.js?ver=3.5.1'></script>\n<script
+        type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201343'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/jquery.reveal.js?ver=1.1'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/jquery.orbit-1.4.0.js?ver=1.4.0'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/jquery.customforms.js?ver=1.0'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/jquery.placeholder.min.js?ver=2.0.7'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/jquery.tooltips.js?ver=2.0.1'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/app.js?ver=1.0'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/javascripts/foundation/off-canvas.js?ver=1.0'></script>\n<script
+        type='text/javascript' src='http://www.dogshaming.com/wp-content/themes/dogshaming/library/js/scripts.js?ver=1.0'></script>\n<script
+        type='text/javascript'>\n/* <![CDATA[ */\nvar recaptcha_options = {\"lang\":\"en\"};\n/*
+        ]]> */\n</script>\n<script type='text/javascript' src='http://www.dogshaming.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.js?ver=20121205'></script>\n\n\t<script
+        src=\"http://stats.wordpress.com/e-201343.js\" type=\"text/javascript\"></script>\n\t<script
+        type=\"text/javascript\">\n\tst_go({v:'ext',j:'1:2.4.2',blog:'42825134',post:'0',tz:'-7'});\n\tvar
+        load_cmc = function(){linktracker_init(42825134,0,2);};\n\tif ( typeof addLoadEvent
+        != 'undefined' ) addLoadEvent(load_cmc);\n\telse load_cmc();\n\t</script>\n\n\t\t<!--
+        Quantcast Tag -->\n\t\t<script type=\"text/javascript\">\n\t\tvar _qevents
+        = _qevents || [];\n\n\t\t(function() {\n\t\tvar elem = document.createElement('script');\n\t\telem.src
+        = (document.location.protocol == \"https:\" ? \"https://secure\" : \"http://edge\")
+        + \".quantserve.com/quant.js\";\n\t\telem.async = true;\n\t\telem.type = \"text/javascript\";\n\t\tvar
+        scpt = document.getElementsByTagName('script')[0];\n\t\tscpt.parentNode.insertBefore(elem,
+        scpt);\n\t\t})();\n\n\t\t_qevents.push({\n\t\tqacct:\"p-3eluKTTuZoTCU\"\n\t\t});\n\t\t</script>\n\n\t\t<noscript>\n\t\t<div
+        style=\"display:none;\">\n\t\t<img src=\"//pixel.quantserve.com/pixel/p-3eluKTTuZoTCU.gif\"
+        border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n\t\t</div>\n\t\t</noscript>\n\t\t<!--
+        End Quantcast tag -->\n\n\n\n\t</body>\n\n</html>\n<!-- Dynamic page generated
+        in 0.776 seconds. -->\n<!-- Cached page generated by WP-Super-Cache on 2013-10-23
+        12:23:20 -->\n\n<!-- super cache -->"
+    http_version: 
+  recorded_at: Wed, 23 Oct 2013 19:51:26 GMT
+recorded_with: VCR 2.6.0
