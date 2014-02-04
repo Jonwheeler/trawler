@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/Jonwheeler/trawler.png)](https://codeclimate.com/github/Jonwheeler/trawler)
+
 # Trawler
 
 Trawl the web for meta tags.
